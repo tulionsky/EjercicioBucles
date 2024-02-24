@@ -61,3 +61,26 @@
 //Console.WriteLine("¡Contraseña correcta! Bienvenido.");
 
 //SEGUNDO ENUNCIADO
+
+//Random rnd = new Random();
+//int numeroAleatorio = rnd.Next(1, 101);
+//int intento;
+
+//Console.WriteLine("¡Adivina el número entre 1 y 100!");
+
+//do
+//{
+//    Console.Write("Introduce tu intento: ");
+//    intento = int.Parse(Console.ReadLine());
+
+//    if (intento < numeroAleatorio)
+//    {
+//        Console.WriteLine("El número es mayor.");
+//    }
+//    else if (intento > numeroAleatorio)
+//    {
+//        Console.WriteLine("El número es menor.");
+//    }
+//} while (intento != numeroAleatorio);
+
+//Console.WriteLine("¡Felicidades! ¡Has adivinado el número " + numeroAleatorio + "!");
